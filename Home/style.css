@@ -20,11 +20,40 @@ img#logo{
   margin-left: 0px;
 }
 
-img#avi{
+#avi{
   position: relative;
-  top : -50px;
-  left: -60px;
+  top : -60px;
+  left: 100px;
   float:right;
+}
+
+.user{
+  position: relative;
+  display: block;
+  float:right;
+}
+
+.account-drop{
+   display: none;
+   position: relative;
+   text-align: left;
+   left: 160px;
+   min-width: 140px;
+   min-height: 100px;
+   background-color: #f9f9f9;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.account-drop a{
+  font-size : 20pt;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.user:hover .account-drop{
+  display: inline-block;
 }
 
 .nav a{
@@ -38,6 +67,12 @@ img#avi{
 
 #donate{
   text-align: right;
+}
+
+#name{
+  float: right;
+  position: relative;
+  right: 100px;
 }
 
 
@@ -59,4 +94,22 @@ img#avi{
 
 #donate:hover{
   background-color: #d5ae2b;
+}
+
+#games:hover{
+  background-color: #d5ae2b;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
 }
