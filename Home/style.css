@@ -1,0 +1,164 @@
+body{
+  background-image: url(images/children.jpg);
+  background-size: 1900px 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 0px;
+}
+
+.nav {
+  margin: 0px;
+  background-color: #008B45;
+  font-size: 3vw;
+  font-family: "Verdana";
+  color: black;
+  padding: 20px;
+  text-align: left;
+  display:block;
+}
+
+img#logo{
+  position: relative;
+  display: inline-flex;
+  float: left;
+  margin-left: 0px;
+}
+
+#avi{
+  position: relative;
+  top : -85px;
+  left: 0px;
+  float:right;
+}
+
+.user{
+  position: relative;
+  display: block;
+  float:right;
+}
+
+.account-drop{
+   display: none;
+   position: relative;
+   text-align: left;
+   left: 120px;
+   min-width: 140px;
+   min-height: 100px;
+   background-color: #f9f9f9;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.account-drop a{
+  font-size : 20pt;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.user:hover .account-drop{
+  display: inline-block;
+}
+
+.nav a{
+  margin-left: 20px;
+  color:white;
+  text-decoration: none;
+  font-style: bold;
+  font-family: Verdana;
+  padding: 10px;
+}
+
+.body{
+	width: 500px;
+	height: 500px;
+	margin-left: 0vw;
+	padding-left: 4vw;
+	font-size: 20px;
+  border-radius: 20px;
+	background-color: rgba(255,255,255,0.8);
+}
+#donate{
+  text-align: right;
+}
+
+#name{
+  float: right;
+  position: relative;
+  right: 80px;
+}
+
+
+#home:hover{
+<<<<<<< HEAD
+  color:black;
+  background-color: white;
+}
+
+#forum:hover{
+  color: black;
+  background-color: white;
+}
+
+#events:hover{
+  color:black;
+  background-color: white;
+}
+
+#login:hover{
+  color:black;
+  background-color: white;
+}
+
+#donate:hover{
+  color: black;
+  background-color: white;
+}
+
+#games:hover{
+  color:black;
+  background-color: white;
+=======
+  color: #008B45;
+  background-color: #ffffff;
+}
+
+#forum:hover{
+  color: #008B45;
+  background-color: #ffffff;
+}
+
+#events:hover{
+  color: #008B45;
+  background-color: #ffffff;
+}
+
+#login:hover{
+  color: #008B45;
+  background-color: #ffffff;
+}
+
+#donate:hover{
+  color: #008B45;
+  background-color: #ffffff;
+}
+
+#games:hover{
+  color: #008B45;
+  background-color: #ffffff;
+>>>>>>> b7fb218ba16bb8d82d016ae3016c1d0585ea7c37
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
