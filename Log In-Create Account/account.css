@@ -7,12 +7,13 @@ body {
 }
 
 .logInOrSignUp{
+	color: white;
 	position: relative;
-	background-color: white;
+	background-color: forestgreen;
     margin-left: auto;
     margin-right: auto;
 	width: 500px;
-	border: 5px solid gray;
+	border: 5px solid forestgreen;
 	text-align: center;
     transform: translate(0%, 10%);
 }
