@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body{
+   margin:0;
+   padding:0;
+   height:100%;
+}
 /*Filter Start*/
 input[type=search]{
    -moz-appearance: none;/* older firefox */
@@ -27,6 +32,7 @@ input[type=search]{
 	position:absolute;
 	left: 8vw;
 }
+
 .row-1 .square{
 	display:inline-block;
 }
@@ -94,3 +100,14 @@ input[type=search]{
 	margin-left: 2vw;
 }
 /*Events End*/
+/*Footer Start*/
+
+
+footer {
+ position: absolute;
+ bottom: -870px;
+ height: 150px;
+ width: 100%;
+background-color: black;
+}
+/*Footer End*/
