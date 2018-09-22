@@ -1,14 +1,17 @@
 body{
-  background-image: url("happy_children.jpg");
+  background-image: url("images/children.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-position-y: 120px;
 }
 
 .nav {
   margin: 0px;
-  background-color: rgba(255,255,255,0.5);
-  font-size: 30pt;
+  background-color: #008B45;
+  font-size: 3vw;
   font-family: "Verdana";
   color: black;
-  padding: 10px;
+  padding: 20px;
   text-align: left;
   display:block;
 }
@@ -22,8 +25,8 @@ img#logo{
 
 #avi{
   position: relative;
-  top : -60px;
-  left: 100px;
+  top : -85px;
+  left: 0px;
   float:right;
 }
 
@@ -37,7 +40,7 @@ img#logo{
    display: none;
    position: relative;
    text-align: left;
-   left: 160px;
+   left: 120px;
    min-width: 140px;
    min-height: 100px;
    background-color: #f9f9f9;
@@ -72,7 +75,7 @@ img#logo{
 #name{
   float: right;
   position: relative;
-  right: 100px;
+  right: 80px;
 }
 
 

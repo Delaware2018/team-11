@@ -3,6 +3,7 @@ body{
    margin:0;
    padding:0;
    height:100%;
+	background-image: none !important;
 }
 /*Filter Start*/
 input[type=search]{
@@ -14,7 +15,7 @@ input[type=search]{
 .filter{
 	position: absolute;
 	left: 30vw;
-  top: 7vw;
+  top: 14vw;
 }
 
 .site-search{
@@ -34,7 +35,7 @@ input[type=search]{
 /*Events Start*/
 .events-rows{
 	position:absolute;
-	top: 5vw;
+	top: 16vw;
 	left: 8vw;
 }
 
@@ -109,7 +110,7 @@ input[type=search]{
 
 .footer {
 	 position: absolute;
-	 top: 180vw;
+	 top: 190vw;
 	 height: 150px;
 	 width: 100%;
 	 background-color: #FADDB7;
@@ -120,7 +121,7 @@ input[type=search]{
 
 	.footer {
 	 position: absolute;
-	 top: 1300px;
+	 top: 1400px;
 	 height: 150px;
 	 width: 100%;
 	 background-color: #FADDB7;
