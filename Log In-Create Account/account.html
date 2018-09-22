@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <div class='logInOrSignUp'>
-	<div class="center">Log in or click sign up below to make a new account</div>
-	<button class="button"	onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+	<div class="line"><h1>Log in or click sign up below </br> to make a new account</h1></div>
+	<center>
+		<form class="login">
+			Username/Email:<br><br>
+			<input type="text" name="usr" required><br>
+			Password: <br><br>
+			<input type="text" name="pass" required><br>
+		</form>
+	</center>
+	<button	onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+	<button type="submit" style="width:auto;">Log in</button>
 </div>
 
 <link rel="stylesheet" href="account.css">
