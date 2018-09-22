@@ -45,22 +45,25 @@
 
 
 .square h1{
-	margin-left: 20vw;
+	margin-left: 2vw;
 	margin-top: 0vw;
 	margin-bottom: 0vw;
+	font-size: 3vw;
 }
 
 .square h2{
-	margin-left: 20vw;
+	margin-left: 2vw;
 	margin-top: 0vw;
 	margin-bottom: 0vw;
+	font-size: 2vw;
 }
 
 .square a{
-	margin-left: 20vw;
+	margin-left: 2vw;
 	margin-top: 0vw;
+	font-size: 1.5vw;
 }
 
 .square .post{
-	margin-top: -120px;
+	display: inline-block;
 }
