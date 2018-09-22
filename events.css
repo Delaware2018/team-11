@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body{
+   margin:0;
+   padding:0;
+   height:100%;
+}
+/*Filter Start*/
+input[type=search]{
+   -moz-appearance: none;/* older firefox */
+   -webkit-appearance: none; /* safari, chrome, edge and ie mobile */
+   appearance: none; /* rest */
+}
+
+.filter{
+	position: absolute;
+	left: 10vw;
+}
+
+.site-search{
+	width:250px;
+	height: 47px;
+	
+}
+.filter button{
+	font-size: 16px;
+	background-color: #FADDB7;
+	padding: 13px 28px;
+	border:none;
+}
+/*Filter End*/
+
+/*Events Start*/
+.events-rows{
+	position:absolute;
+	left: 8vw;
+}
+
+.row-1 .square{
+	display:inline-block;
+}
+.row-2 .square{
+	display:inline-block;
+}
+.row-3 .square{
+	display:inline-block;
+}
+.square {
+    background: #479970;
+    width: 25vw;
+    height: 45vw;
+	min-height: 350px;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 7vw;
+	margin-bottom: 2vw;
+}
+
+.square h1{
+	font-size: 2vw;
+	margin-top: 0.5vw;
+	margin-left:2vw;
+}
+.square h2{
+	font-size: 12px;
+	margin-left:2vw;
+}
+
+.square .img-header-2 h2{
+	margin-top: 1.5vw;
+	margin-bottom: 2vw;
+}
+.square img:first-child{
+	width: 25vw;
+}
+.square .img-header-1 .calender-img{
+	width: 2vw;
+	margin-left: 2vw;
+	margin-right: 0.7vw;
+	margin-bottom: -1vw;
+	float:left;
+
+}
+.square .img-header-2 .clock-img{
+	width: 2.5vw;
+	margin-left: 1.8vw;
+	margin-right: 0.5vw;
+	float:left;
+}
+
+.square p{
+	font-size: 2vw;
+	width: 22vw;
+	margin-left: 2vw;
+	margin-bottom: 1vw;
+}
+
+.square a{
+	font-size: 1.5vw;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+	margin-left: 2vw;
+}
+/*Events End*/
+/*Footer Start*/
+
+
+.footer {
+ position: absolute;
+ bottom: -870px;
+ height: 150px;
+ width: 100%;
+ background-color: #FADDB7;
+ z-index: 0;
+}
+
+.Facebook{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 42%;
+	right: 0em;
+	bottom: 0em;
+}
+
+.Instagram{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 48%;
+	right: 0em;
+	bottom: 0em;
+}
+
+.Twitter{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 54%;
+	right: 0em;
+	bottom: 0em;
+}
+
+
+/*Footer End*/
