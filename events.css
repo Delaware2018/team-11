@@ -1,4 +1,26 @@
 @charset "UTF-8";
+/*Filter Start*/
+input[type=search]{
+   -moz-appearance: none;/* older firefox */
+   -webkit-appearance: none; /* safari, chrome, edge and ie mobile */
+   appearance: none; /* rest */
+}
+
+.filter{
+	position: absolute;
+	left: 10vw;
+}
+
+.site-search{
+	width:250px;
+	height: 47px;
+	
+}
+.filter button{
+	font-size: 16px;
+	padding: 13px 28px;
+}
+/*Filter End*/
 
 /*Events Start*/
 .events-rows{
