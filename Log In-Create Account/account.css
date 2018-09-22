@@ -7,18 +7,26 @@ body {
 }
 
 .logInOrSignUp{
+	color: white;
 	position: relative;
-	background-color: white;
+	background-color: forestgreen;
     margin-left: auto;
     margin-right: auto;
 	width: 500px;
-	border: 5px solid gray;
+	border: 5px solid forestgreen;
 	text-align: center;
     transform: translate(0%, 10%);
 }
 
 .login{
 	width: 400px;
+}
+
+.button1{
+	background-color: forestgreen;
+	border: 2px solid yellow;
+	color: yellow;
+	border-radius: 8px;
 }
 
 /* Full-width input fields */

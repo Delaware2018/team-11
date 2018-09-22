@@ -1,0 +1,33 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: forestgreen;
+    border: 2px solid yellow;
+	color: yellow;
+	border-radius: 8px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: forestgreen;
+	color: white;	
+    padding: 20px;
+}
