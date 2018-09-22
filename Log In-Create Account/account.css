@@ -1,14 +1,16 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-.logInOrSignUp {
-    left: 0;
-    line-height: 20px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 35%;
-    width: 100%;
+.button{
+	position: center
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 25%;
+	transform: translate(0, -25%);
+	text-align: center
 }
 
 /* Full-width input fields */
