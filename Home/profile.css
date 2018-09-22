@@ -1,0 +1,83 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+
+.container1 {
+	color: white;
+	position: relative;
+	background-color: forestgreen;
+	border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+	border: 5px solid yellow;
+	text-align: center;
+}
+
+.container2 {
+	color: white;
+	position: relative;
+	background-color: forestgreen;
+	border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+	border: 5px solid yellow;
+	text-align: center;
+    transform: translate(0%, 10%);
+}
+
+.select{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* Set a style for all buttons */
+button {
+	background-color: forestgreen;
+	border: 2px solid yellow;
+	color: yellow;
+	border-radius: 8px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+button:hover {
+    opacity:1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.apply {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
