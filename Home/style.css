@@ -1,0 +1,62 @@
+body{
+  background-image: url("happy_children.jpg");
+}
+
+.nav {
+  margin: 0px;
+  background-color: rgba(255,255,255,0.5);
+  font-size: 30pt;
+  font-family: "Verdana";
+  color: black;
+  padding: 10px;
+  text-align: left;
+  display:block;
+}
+
+img#logo{
+  position: relative;
+  display: inline-flex;
+  float: left;
+  margin-left: 0px;
+}
+
+img#avi{
+  position: relative;
+  top : -50px;
+  left: -60px;
+  float:right;
+}
+
+.nav a{
+  margin-left: 20px;
+  color:white;
+  text-decoration: none;
+  font-style: bold;
+  font-family: Verdana;
+  padding: 10px;
+}
+
+#donate{
+  text-align: right;
+}
+
+
+#home:hover{
+  background-color: #d5ae2b;
+}
+
+#forum:hover{
+  background-color: #d5ae2b;
+}
+
+#events:hover{
+  background-color: #d5ae2b;
+}
+
+#login:hover{
+  background-color: #d5ae2b;
+}
+
+#donate:hover{
+  background-color: #d5ae2b;
+}
