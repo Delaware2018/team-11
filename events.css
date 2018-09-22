@@ -17,7 +17,8 @@
 .square {
     background: #479970;
     width: 25vw;
-    height: 40vw;
+    height: 45vw;
+	min-height: 350px;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-top: 7vw;
@@ -25,7 +26,7 @@
 }
 
 .square h1{
-	font-size: 20px;
+	font-size: 2vw;
 	margin-top: 0.5vw;
 	margin-left:2vw;
 }
@@ -36,6 +37,7 @@
 
 .square .img-header-2 h2{
 	margin-top: 1.5vw;
+	margin-bottom: 2vw;
 }
 .square img:first-child{
 	width: 25vw;
@@ -56,14 +58,14 @@
 }
 
 .square p{
-	font-size: 16px;
+	font-size: 2vw;
 	width: 22vw;
 	margin-left: 2vw;
 	margin-bottom: 1vw;
 }
 
 .square a{
-	font-size: 16px;
+	font-size: 1.5vw;
 	color: #000000;
 	font-weight: bold;
 	text-decoration:none;
