@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.footer {
+	 position: absolute;
+	 top: 80vw;
+	 height: 150px;
+	 width: 100%;
+	 background-color: #FADDB7;
+	 z-index: 0;
+	}
+
+@media only screen and (max-width: 1200px){
+
+	.footer {
+	 position: absolute;
+	 top: 800px;
+	 height: 150px;
+	 width: 100%;
+	 background-color: #FADDB7;
+	 z-index: 0;
+	}
+
+}
+
+.Facebook{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 42%;
+	right: 0em;
+	bottom: 0em;
+}
+
+.Instagram{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 48%;
+	right: 0em;
+	bottom: 0em;
+}
+
+.Twitter{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 54%;
+	right: 0em;
+	bottom: 0em;
+}
+
+

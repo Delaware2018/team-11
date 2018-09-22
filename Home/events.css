@@ -39,6 +39,17 @@ input[type=search]{
 	left: 8vw;
 }
 
+
+@media only screen and (max-width: 994px){
+	.filter{
+		top: 32vw;
+	}
+	
+	.events-rows{
+		top: 38vw;
+	}
+	
+}
 .row-1 .square{
 	display:inline-block;
 }

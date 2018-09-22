@@ -1,30 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+	background-image: none !important;
+}
+
 .sorting .sort{
 	display: inline-block;
-	margin-left: 8px;
+	margin-top: 70px;
 }
 
-.rectangles-2 .rectangle {
-    width: 25px;
-    height: 15px;
-	margin-bottom: 2px;
-    background: #4da1f7;
-}
-
-.rectangles-3 .rectangle {
-    width: 25px;
-    height: 9.5px;
-	margin-bottom: 2px;
-    background: #4da1f7;
-}
-
-.rectangles-4 .rectangle {
-    width: 25px;
-    height: 6.5px;
-	margin-bottom: 2px;
-    background: #4da1f7;
-}
 .square {
     background: #479970;
     width: 124vw;
@@ -42,7 +26,6 @@
 	margin-left:1vw;
 	
 }
-
 
 .square h1{
 	position: absolute;
@@ -70,3 +53,55 @@
 .square .post{
 	display: inline-block;
 }
+
+.footer {
+	 position: absolute;
+	 top: 120vw;
+	 height: 150px;
+	 width: 100%;
+	 background-color: #FADDB7;
+	 z-index: 0;
+	}
+
+@media only screen and (max-width: 1300px){
+
+	.footer {
+	 position: absolute;
+	 top: 1000px;
+	 height: 150px;
+	 width: 100%;
+	 background-color: #FADDB7;
+	 z-index: 0;
+	}
+
+}
+
+.Facebook{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 42%;
+	right: 0em;
+	bottom: 0em;
+}
+
+.Instagram{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 48%;
+	right: 0em;
+	bottom: 0em;
+}
+
+.Twitter{
+	position: absolute;
+	width: 2.5%;
+	top: 50px;
+	left: 54%;
+	right: 0em;
+	bottom: 0em;
+}
+
+
+
