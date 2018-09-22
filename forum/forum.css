@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+.sorting .sort{
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.rectangles-2 .rectangle {
+    width: 25px;
+    height: 15px;
+	margin-bottom: 2px;
+    background: #4da1f7;
+}
+
+.rectangles-3 .rectangle {
+    width: 25px;
+    height: 9.5px;
+	margin-bottom: 2px;
+    background: #4da1f7;
+}
+
+.rectangles-4 .rectangle {
+    width: 25px;
+    height: 6.5px;
+	margin-bottom: 2px;
+    background: #4da1f7;
+}
+.square {
+    background: #479970;
+    width: 125vw;
+    height: 15vw;
+	margin-left: 3vw;
+	margin-right: 2vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.square img{
+	width: 15vw;
+	height: 13vw;
+	margin-top:1vw;
+	margin-left:1vw;
+	
+}
+
+
+.square h1{
+	margin-left: 20vw;
+	margin-top: 0vw;
+}
+
+.square h2{
+	margin-left: 20vw;
+	margin-top: 0vw;
+}
+
+.square a{
+	margin-left: 20vw;
+	margin-top: 0vw;
+}
+
+.square .post{
+	margin-top: -120px;
+}
