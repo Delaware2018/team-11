@@ -23,7 +23,9 @@ input[type=search]{
 }
 .filter button{
 	font-size: 16px;
+	background-color: #FADDB7;
 	padding: 13px 28px;
+	border:none;
 }
 /*Filter End*/
 
@@ -108,9 +110,9 @@ input[type=search]{
  bottom: -870px;
  height: 150px;
  width: 100%;
- background-color: black;
+ background-color: #FADDB7;
+ z-index: 0;
 }
-
 
 .Facebook{
 	position: absolute;
