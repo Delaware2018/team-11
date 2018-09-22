@@ -28,6 +28,6 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     background-color: forestgreen;
-	color: white;
+	color: white;	
     padding: 20px;
 }
