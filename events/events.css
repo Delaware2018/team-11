@@ -18,7 +18,7 @@ input[type=search]{
 
 .site-search{
 	width:250px;
-	height: 6vw;
+	height: 47px;
 	
 }
 .filter button{
@@ -105,14 +105,26 @@ input[type=search]{
 /*Events End*/
 /*Footer Start*/
 
-
 .footer {
- position: absolute;
- bottom: -870px;
- height: 150px;
- width: 100%;
- background-color: #FADDB7;
- z-index: 0;
+	 position: absolute;
+	 top: 180vw;
+	 height: 150px;
+	 width: 100%;
+	 background-color: #FADDB7;
+	 z-index: 0;
+	}
+
+@media only screen and (max-width: 994px){
+	
+	.footer {
+	 position: absolute; 
+	 top: 1400px;
+	 height: 150px;
+	 width: 100%;
+	 background-color: #FADDB7;
+	 z-index: 0;
+	}
+	
 }
 
 .Facebook{
