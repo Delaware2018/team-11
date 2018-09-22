@@ -3,7 +3,7 @@
 
 .footer {
 	 position: absolute;
-	 top: 80vw;
+	 top: 50vw;
 	 height: 150px;
 	 width: 100%;
 	 background-color: #FADDB7;
@@ -49,5 +49,3 @@
 	right: 0em;
 	bottom: 0em;
 }
-
-

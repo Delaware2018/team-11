@@ -1,8 +1,8 @@
 body{
-  background-image: url(images/Children.jpg);
+  background-image: url(images/children.jpg);
   background-size: 1900px 1200px;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   background-position-y: 0px;
 }
 
@@ -72,9 +72,10 @@ img#logo{
 .body{
 	width: 500px;
 	height: 500px;
-	margin-left: 17vw;
+	margin-left: 0vw;
 	padding-left: 4vw;
 	font-size: 20px;
+  border-radius: 20px;
 	background-color: rgba(255,255,255,0.8);
 }
 #donate{
@@ -89,27 +90,33 @@ img#logo{
 
 
 #home:hover{
-  background-color: #d5ae2b;
+  color:black;
+  background-color: white;
 }
 
 #forum:hover{
-  background-color: #d5ae2b;
+  color: black;
+  background-color: white;
 }
 
 #events:hover{
-  background-color: #d5ae2b;
+  color:black;
+  background-color: white;
 }
 
 #login:hover{
-  background-color: #d5ae2b;
+  color:black;
+  background-color: white;
 }
 
 #donate:hover{
-  background-color: #d5ae2b;
+  color: black;
+  background-color: white;
 }
 
 #games:hover{
-  background-color: #d5ae2b;
+  color:black;
+  background-color: white;
 }
 
 .card {
