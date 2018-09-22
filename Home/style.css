@@ -89,27 +89,33 @@ img#logo{
 
 
 #home:hover{
-  background-color: #d5ae2b;
+  color: #008B45;
+  background-color: #ffffff;
 }
 
 #forum:hover{
-  background-color: #d5ae2b;
+  color: #008B45;
+  background-color: #ffffff;
 }
 
 #events:hover{
-  background-color: #d5ae2b;
+  color: #008B45;
+  background-color: #ffffff;
 }
 
 #login:hover{
-  background-color: #d5ae2b;
+  color: #008B45;
+  background-color: #ffffff;
 }
 
 #donate:hover{
-  background-color: #d5ae2b;
+  color: #008B45;
+  background-color: #ffffff;
 }
 
 #games:hover{
-  background-color: #d5ae2b;
+  color: #008B45;
+  background-color: #ffffff;
 }
 
 .card {
