@@ -22,6 +22,13 @@ body {
 	width: 400px;
 }
 
+.button1{
+	background-color: forestgreen;
+	border: 2px solid yellow;
+	color: yellow;
+	border-radius: 8px;
+}
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
