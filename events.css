@@ -38,12 +38,14 @@
 .square .img-header-1 .calender-img{
 	width: 2vw;
 	margin-left: 2vw;
+	margin-right: 0.7vw;
 	float:left;
 
 }
 .square .img-header-2 .clock-img{
 	width: 2.5vw;
 	margin-left: 2vw;
+	margin-right: 0.5vw;
 	float:left;
 }
 
