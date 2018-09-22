@@ -18,13 +18,13 @@ input[type=search]{
 
 .site-search{
 	width:250px;
-	height: 47px;
+	height: 6vw;
 	
 }
 .filter button{
 	font-size: 16px;
 	background-color: #FADDB7;
-	padding: 13px 28px;
+	padding: 1vw 2vw;
 	border:none;
 }
 /*Filter End*/
@@ -32,6 +32,7 @@ input[type=search]{
 /*Events Start*/
 .events-rows{
 	position:absolute;
+	top: 5vw;
 	left: 8vw;
 }
 
