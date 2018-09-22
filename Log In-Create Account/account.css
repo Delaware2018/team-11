@@ -1,14 +1,14 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-.center {
-    position: center;
-    width: 100px;
-    height: 50px;
-    top: 50%;
-    left: 50%;
-    margin-top: -25px;
-    margin-left: -50px;
+.logInOrSignUp {
+    left: 0;
+    line-height: 20px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 35%;
+    width: 100%;
 }
 
 /* Full-width input fields */
